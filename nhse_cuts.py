@@ -7,12 +7,11 @@ RED = (204, 0, 0)  # To leave by 2027
 dot_size = 6
 dots_per_row = 150
 
-# Workforce numbers. Source: https://assets.publishing.service.gov.uk/media/6852d972ff16d05c5e6aa6ce/dhsc-workforce-management-information-march-2025-updated.csv
+# Workforce numbers (see README for sources)
 current_nhse = 16138
 current_dhsc = 3708
 
 # Estimating pre-merger NHSE workforce
-# Source: https://assets.publishing.service.gov.uk/media/6709344a92bb81fcdbe7b728/nhs-england-annual-report-and-accounts-2023-to-2024.pdf?utm_source=chatgpt.com
 estimated_pre_2023_merger = int(current_nhse / 0.64)
 
 # Step 1: Staff remaining after first cut (pre-merger to current NHSE)
